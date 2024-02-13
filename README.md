@@ -56,7 +56,7 @@ grayscale images. Include the input and transformed images in your report. Trans
 
 ### 1. Change the size of the image to 1080×1920 (make sure the image you start with is not already 1080×1920).
 If we give the following parameter values and call the "TransformingImages_Q2_1.m" file, we will get the corresponding output images.
-[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.]
+[NOTE: we definitely have to put the semi-colon ';' after each command line, otherwise it will print numeric values of that variable in the command window.]
 >> TransformType = 'scaling';
 >> s = 0.5;
 >> TransformMatrix = [s 0 0; 0 s 0; 0 0 1];
@@ -65,21 +65,21 @@ If we give the following parameter values and call the "TransformingImages_Q2_1.
 
 
 Input and output images for "Image1.png".
-[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
+[NOTE: we definitely have to put the semi-colon ';' after each command line, otherwise it will print numeric values of that variable in the command window.] 
 >> InputImage = imread('Image1.png');
 >> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
 >> 
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/fb61191e-7c5b-47ab-870e-a0c289bce7d4) ![TransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/4b616be8-42c4-4012-a611-90e09b0b4775)
 
 Input and output images for "Image2.png".
-[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
+[NOTE: we definitely have to put the semi-colon ';' after each command line, otherwise it will print numeric values of that variable in the command window.] 
 >> InputImage = imread('Image2.png');
 >> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
 >> 
 ![Image2](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/a8dfaeda-a62e-456b-b468-9b9fd36e554d) ![TransformedImage2](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/8385e342-083d-4206-84d1-0b7036029676)
 
 Input and output images for "20160104021A_Left.JPG".
-[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.]
+[NOTE: we definitely have to put the semi-colon ';' after each comman line, otherwise it will print numeric values of that variable in the command window.]
 >> InputImage = imread('20160104021A_Left.JPG');
 >> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
 >> 

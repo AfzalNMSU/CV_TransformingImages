@@ -118,4 +118,10 @@ In "TransformingImages_Q2_5.m" file I have used the "Image1.png" image to perfor
 ### 6. The following two affine transforms:
 ![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/94ace310-9d6c-4a86-ad69-b5371a9e0ac4)
 
+In "TransformingImages_Q2_6.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
+
+![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/46dcf8d0-c450-4d27-b7ab-ffb9a35a6f5b) ![Q2_6_CombinedAffineTransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/f94de0a0-7b6f-46ed-91b2-91ddf372b93b)
+
+
+
 

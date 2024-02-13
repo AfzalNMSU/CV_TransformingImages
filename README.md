@@ -46,4 +46,9 @@ The inverse of a reflection matrix should be the matrix itself. This is because 
 
 This property arises from the nature of reflection operations, where reflecting an object over a certain axis (or plane) and then reflecting it again over the same axis (or plane) reverses the effect of the initial reflection, resulting in the original object. For example, consider reflecting a point across the x-axis. If we perform this reflection twice, the point will return to its original position. This same principle holds true for reflection matrices in higher dimensions as well. Therefore, the inverse of a reflection matrix is the matrix itself.
 
+
+### 4. The inverse for the shear matrix is slightly trickier to intuit, so we will first calculate its inverse using a standard matrix-inversion formula. You will only need the inversion formula for a 2×2 matrix:
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/42e6c3f2-a842-4bfe-8acc-1d85bbc45a90)
+### Use the above formula to calculate the inverse of the matrix for the shear transform along the x-direction. Intuitively, what does this inverse mean? Can you obtain a similar formula for the inverse of the shear transform along the y-direction?
+
      

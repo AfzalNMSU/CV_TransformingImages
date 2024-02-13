@@ -108,3 +108,14 @@ In "TransformingImages_Q2_4.m" file I have used the "Image1.png" image to perfor
 
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/93ad2156-ec5b-4fdc-855f-c370a608691e) ![Q2_4_ShearedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/c010a1f5-779c-4e89-b416-0aab39b36ca3)
 
+
+### 5. Translate the image by 300 in the x-direction and 500 in the y-direction, then rotate the resulting image counterclockwise by 20 degrees, then scale the resulting image down to one-half its size. You should apply the transformImage function only once to do this.
+
+In "TransformingImages_Q2_5.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
+
+![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/e4d64bff-4b3a-4c66-8bdd-b048719ffb31) ![Q2_5_CombinedTransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/902a20e9-6c88-4ddf-b002-e68c021170b6)
+
+### 6. The following two affine transforms:
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/94ace310-9d6c-4a86-ad69-b5371a9e0ac4)
+
+

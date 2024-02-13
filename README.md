@@ -61,18 +61,25 @@ If we give the following parameter values and call the "TransformingImages_Q2_1.
 >> Wout = 1080;
 >> scale_x = Wout / size(InputImage, 2);
 >> scale_y = Hout / size(InputImage, 1);
->> InputImage = imread('Image1.png');
->> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
-[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
+
 
 
 Input and output images for "Image1.png".
+>> InputImage = imread('Image1.png');
+>> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
+[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/fb61191e-7c5b-47ab-870e-a0c289bce7d4) ![TransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/4b616be8-42c4-4012-a611-90e09b0b4775)
 
 Input and output images for "Image2.png".
+>> InputImage = imread('Image2.png');
+>> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
+[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
 ![Image2](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/a8dfaeda-a62e-456b-b468-9b9fd36e554d) ![TransformedImage2](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/8385e342-083d-4206-84d1-0b7036029676)
 
 Input and output images for "20160104021A_Left.JPG".
+>> InputImage = imread('20160104021A_Left.JPG');
+>> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
+[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
 ![20160104021A_Left](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/a175918d-3137-4540-a0c8-37445414b089) ![TransformedImage3](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/d0a02051-bd80-48db-978f-97d4a14a2ba3)
 
 

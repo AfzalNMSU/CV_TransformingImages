@@ -6,12 +6,12 @@ Also, numerically, the closed form expression yields more stable results. Here w
 Hint: think about what it means to invert translation. We saw that inverting scaling means performing the opposite of the particular scaling transform: if you were enlarging the image to get the transformed image,
 then the image itself is a shrunk version of the transformed image, and vice versa. Apply a similar intuition for translation
 
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/093356db-c7c8-4dca-a346-fe8ab8fe90bc)
+
 Translation Matrix:
      1     0     3
      0     1    -2
      0     0     1
-
-![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/ce005211-f4cb-4583-b04b-ab469a38d752)
 
 Inverse Translation Matrix:
      1     0    -3

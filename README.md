@@ -23,6 +23,8 @@ Inverse Translation Matrix:
      
 2. Using the same intuitions as what you used above, invert a rotation matrix. There is a fundamental relationship between a rotation matrix and its inverse. Can you identify this relationship?
 
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/2463f2a7-9dc0-4799-bcca-4efa5d87b477)
+
 Rotation Matrix:
     0.5000   -0.8660         0
     0.8660    0.5000         0

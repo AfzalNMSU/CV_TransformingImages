@@ -67,6 +67,7 @@ If we give the following parameter values and call the "TransformingImages_Q2_1.
 Input and output images for "Image1.png".
 >> InputImage = imread('Image1.png');
 >> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
+
 [NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/fb61191e-7c5b-47ab-870e-a0c289bce7d4) ![TransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/4b616be8-42c4-4012-a611-90e09b0b4775)
 

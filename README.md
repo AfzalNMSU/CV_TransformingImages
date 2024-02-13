@@ -91,6 +91,12 @@ Input and output images for "20160104021A_Left.JPG".
 
 In "TransformingImages_Q2_2.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
 
-
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/a59ccf06-50dd-442e-be8f-0a00c70eb95a) ![ReflectedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/9f211be5-5848-4445-a78b-27e82594fd75)
+
+
+### 3. Rotate the image clockwise by 30 degrees.
+
+In "TransformingImages_Q2_3.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
+
+![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/8a68d3d9-d8a7-4013-ba4d-3c36d894eab6)  ![Q2_3_RotatedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/916e8eba-ca55-462e-98b2-5426ee30ec49)
 

@@ -32,5 +32,13 @@ This property arises from the nature of reflection operations, where reflecting 
 ![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/42e6c3f2-a842-4bfe-8acc-1d85bbc45a90)
 ### Use the above formula to calculate the inverse of the matrix for the shear transform along the x-direction. Intuitively, what does this inverse mean? Can you obtain a similar formula for the inverse of the shear transform along the y-direction?
 
+The inverse of the shear matrix along the x-direction is another shear matrix, but with the opposite shear factor. Intuitively, this makes sense because if we shear an object along the x-direction and then apply the inverse shear transformation, it should cancel out the shear effect and bring the object back to its original position.
+
+We can obtain a similar formula for the inverse of the shear transform along the y-direction. Now, for the shear transform along the y-direction, the shear matrix is:
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/354bf762-aee8-4839-8198-c1b77469d659)
+Using the same formula for the inverse of a 2x2 matrix, the inverse would be:
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/dd25e985-37f4-4521-bfd8-ddd5f5b2f3fa)
+This represents the transformation that undoes the applied shear effect, restoring the object to its original shape without the shearing along the y-axis.
+
 
      

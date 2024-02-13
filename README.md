@@ -11,11 +11,13 @@ Translation Matrix:
      0     1    -2
      0     0     1
 
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/ce005211-f4cb-4583-b04b-ab469a38d752)
+
 Inverse Translation Matrix:
      1     0    -3
      0     1     2
      0     0     1
-![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/3a850849-4880-4659-bff5-aca7cc1e29a9)
+
 
 
      

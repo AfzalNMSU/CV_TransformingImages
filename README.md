@@ -8,36 +8,16 @@ then the image itself is a shrunk version of the transformed image, and vice ver
 
 ![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/093356db-c7c8-4dca-a346-fe8ab8fe90bc)
 
-Translation Matrix:
-     1     0     3
-     0     1    -2
-     0     0     1
 
-Inverse Translation Matrix:
-     1     0    -3
-     0     1     2
-     0     0     1
-
-
-
-     
+ 
 ### 2. Using the same intuitions as what you used above, invert a rotation matrix. There is a fundamental relationship between a rotation matrix and its inverse. Can you identify this relationship?
 
 ![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/2463f2a7-9dc0-4799-bcca-4efa5d87b477)
 
-Rotation Matrix:
-    0.5000   -0.8660         0
-    0.8660    0.5000         0
-         0         0    1.0000
-
-Inverse Rotation Matrix:
-    0.5000    0.8660         0
-   -0.8660    0.5000         0
-         0         0    1.0000
-
 The fundamental relationship between a rotation matrix and its inverse is that the inverse of a rotation matrix is equal to its transpose. 
 
 This relationship arises from the properties of orthogonal matrices. Rotation matrices are orthogonal matrices, meaning that their columns (and rows) are orthonormal vectors (i.e., they have a length of 1 and are mutually perpendicular). For an orthogonal matrix, the transpose of is equal to its inverse. This is because the transpose of an orthogonal matrix maintains the orthogonality of its columns, and the dot product of any column with any other column (or row) remains 0, which is a defining property of orthogonal matrices. Therefore, for rotation matrices, taking the transpose effectively "undoes" the rotation operation, making it equivalent to the inverse rotation. This property simplifies the computation of inverse rotation matrices.
+
 
 
 ### 3. What should the inverse of a reflection matrix be, and why?
@@ -45,6 +25,7 @@ This relationship arises from the properties of orthogonal matrices. Rotation ma
 The inverse of a reflection matrix should be the matrix itself. This is because reflecting an object twice over the same axis (or plane) brings it back to its original position.
 
 This property arises from the nature of reflection operations, where reflecting an object over a certain axis (or plane) and then reflecting it again over the same axis (or plane) reverses the effect of the initial reflection, resulting in the original object. For example, consider reflecting a point across the x-axis. If we perform this reflection twice, the point will return to its original position. This same principle holds true for reflection matrices in higher dimensions as well. Therefore, the inverse of a reflection matrix is the matrix itself.
+
 
 
 ### 4. The inverse for the shear matrix is slightly trickier to intuit, so we will first calculate its inverse using a standard matrix-inversion formula. You will only need the inversion formula for a 2×2 matrix:

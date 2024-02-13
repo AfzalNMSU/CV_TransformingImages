@@ -55,12 +55,15 @@ Here, InputImage should be a matrix of size Hin ×Win, where Hin and Win are the
 grayscale images. Include the input and transformed images in your report. TransformMatrix is a 3 × 3 matrix that represents a particular transform. TransformType is a string, that can take the following values ‘scaling’, ‘rotation’, ‘translation’, ‘reflection’, ‘shear’, ‘affine’, ‘homography’. Your function should use TransformType to specify the inverse matrix as computed in Section 1. Inverses to Affine and homography transforms can be done using inv in MATLAB, but the other inverses must be set up using the intuitions from Section 1. Do help strcmp to look at comparing strings in MATLAB. Your function as explained earlier should at the very least take a grayscale image as input and provide a grayscale image as output. This means that if you use the example images provided with the project, you will have to convert those example images to grayscale before you run your code. You are welcome to write your code so that it uses color images as input and output, but at minimum you should use grayscale images. If you use color images, you need not provide results on grayscale images. If you use color images, note that your transformImage code will have to use a loop that loops over the three channels of the image. Provide results on all images in question (see the top of Section 1) for the following transforms:
 
 ### 1. Change the size of the image to 1080×1920 (make sure the image you start with is not already 1080×1920).
-If we give the following parameter values after running the "TransformingImages_Q2_1.m" file, we will get the corresponding output images.
+If we give the following parameter values and call the "TransformingImages_Q2_1.m" file, we will get the corresponding output images.
 >> TransformType = 'scaling';
 >> Hout = 1920;
 >> Wout = 1080;
 >> scale_x = Wout / size(InputImage, 2);
 >> scale_y = Hout / size(InputImage, 1);
+>> InputImage = imread('Image1.png');
+>> TransformingImages_Q2_1(InputImage, TransformMatrix, TransformType);
+[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.] 
 
 
 Input and output images for "Image1.png".

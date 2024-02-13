@@ -5,7 +5,6 @@ Also, numerically, the closed form expression yields more stable results. Here w
 1. In class, we saw how to compute the inverse of the scaling matrix, not by a linear algebra approach but by intuiting what it means to scale downwards (shrinking is the multiplicative inverse of enlarging). Similarly, compute the inverse of a translation matrix.
 Hint: think about what it means to invert translation. We saw that inverting scaling means performing the opposite of the particular scaling transform: if you were enlarging the image to get the transformed image,
 then the image itself is a shrunk version of the transformed image, and vice versa. Apply a similar intuition for translation
-![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/3b8bd19b-6f7c-4e56-bbd5-8b72ca186ceb)
 
 Translation Matrix:
      1     0     3
@@ -16,6 +15,8 @@ Inverse Translation Matrix:
      1     0    -3
      0     1     2
      0     0     1
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/3a850849-4880-4659-bff5-aca7cc1e29a9)
+
 
      
 2. Using the same intuitions as what you used above, invert a rotation matrix. There is a fundamental relationship between a rotation matrix and its inverse. Can you identify this relationship?

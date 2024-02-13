@@ -42,4 +42,8 @@ This relationship arises from the properties of orthogonal matrices. Rotation ma
 
 ### 3. What should the inverse of a reflection matrix be, and why?
 
+The inverse of a reflection matrix should be the matrix itself. This is because reflecting an object twice over the same axis (or plane) brings it back to its original position.
+
+This property arises from the nature of reflection operations, where reflecting an object over a certain axis (or plane) and then reflecting it again over the same axis (or plane) reverses the effect of the initial reflection, resulting in the original object. For example, consider reflecting a point across the x-axis. If we perform this reflection twice, the point will return to its original position. This same principle holds true for reflection matrices in higher dimensions as well. Therefore, the inverse of a reflection matrix is the matrix itself.
+
      

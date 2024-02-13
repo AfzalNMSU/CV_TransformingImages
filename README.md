@@ -101,3 +101,10 @@ In "TransformingImages_Q2_3.m" file I have used the "Image1.png" image to perfor
 
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/8a68d3d9-d8a7-4013-ba4d-3c36d894eab6)  ![Q2_3_RotatedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/916e8eba-ca55-462e-98b2-5426ee30ec49)
 
+
+### 4. Shear the image in the x-direction so that the additional amount added to each x value is 0.5 times each y value.
+
+In "TransformingImages_Q2_4.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
+
+![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/93ad2156-ec5b-4fdc-855f-c370a608691e) ![Q2_4_ShearedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/c010a1f5-779c-4e89-b416-0aab39b36ca3)
+

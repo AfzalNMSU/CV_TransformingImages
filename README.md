@@ -89,3 +89,10 @@ Input and output images for "20160104021A_Left.JPG".
 
 
 
+### 2. Reflect the image in the y direction.
+
+In "TransformingImages_Q2_2.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
+
+
+![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/a59ccf06-50dd-442e-be8f-0a00c70eb95a) ![ReflectedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/9f211be5-5848-4445-a78b-27e82594fd75)
+

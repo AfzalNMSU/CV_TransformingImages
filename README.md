@@ -123,5 +123,13 @@ In "TransformingImages_Q2_6.m" file I have used the "Image1.png" image to perfor
 ![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/46dcf8d0-c450-4d27-b7ab-ffb9a35a6f5b) ![Q2_6_CombinedAffineTransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/f94de0a0-7b6f-46ed-91b2-91ddf372b93b)
 
 
+### 7. The following two homographies:
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/4b43a132-d9ed-4609-bec7-df8033cf5496)
+
+In "TransformingImages_Q2_7.m" file I have used the "Image1.png" image to perform the required operation. Followings show the input and output image after running the matlab file.
+
+![Image1](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/6cf70150-1fa8-4186-a4ce-a441ce9268a3) ![Q2_7_CombinedHomographyTransformedImage](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/4e856616-7472-40a4-8472-8e4c5273763a)
+
+
 
 

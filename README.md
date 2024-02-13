@@ -56,12 +56,13 @@ grayscale images. Include the input and transformed images in your report. Trans
 
 ### 1. Change the size of the image to 1080×1920 (make sure the image you start with is not already 1080×1920).
 If we give the following parameter values and call the "TransformingImages_Q2_1.m" file, we will get the corresponding output images.
+[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.]
 >> TransformType = 'scaling';
 >> Hout = 1920;
 >> Wout = 1080;
 >> scale_x = Wout / size(InputImage, 2);
 >> scale_y = Hout / size(InputImage, 1);
-[NOTE: we definitely have to put the semi-colon ';' after each line, otherwise it will print numeric values of that variable in the command window.]
+
 
 
 

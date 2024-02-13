@@ -5,6 +5,7 @@ Also, numerically, the closed form expression yields more stable results. Here w
 1. In class, we saw how to compute the inverse of the scaling matrix, not by a linear algebra approach but by intuiting what it means to scale downwards (shrinking is the multiplicative inverse of enlarging). Similarly, compute the inverse of a translation matrix.
 Hint: think about what it means to invert translation. We saw that inverting scaling means performing the opposite of the particular scaling transform: if you were enlarging the image to get the transformed image,
 then the image itself is a shrunk version of the transformed image, and vice versa. Apply a similar intuition for translation
+![image](https://github.com/AfzalNMSU/CV_TransformingImages/assets/83153124/3b8bd19b-6f7c-4e56-bbd5-8b72ca186ceb)
 
 Translation Matrix:
      1     0     3
